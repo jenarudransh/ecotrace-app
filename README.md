@@ -1,17 +1,39 @@
-# ecotrace
+# 🌱 EcoTrace – Sustainable Product Scanner
 
-A new Flutter project.
+EcoTrace is a Flutter-based mobile application that allows users to scan product barcodes and analyze their environmental impact, authenticity, and lifecycle.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+* 📷 Barcode scanning
+* 🌍 Product lifecycle tracing
+* 📊 Sustainability score
+* 🤖 AI-based eco insights
+* 🗺️ Supply chain visualization (Google Maps)
+* 📈 Dashboard analytics
+* ⚖️ Product comparison
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Flutter
+* OpenFoodFacts API
+* Google Maps API
+* Provider (State Management)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚠️ Setup
+
+1. Clone repo
+2. Add your Google Maps API key in:
+   android/app/src/main/AndroidManifest.xml
+3. Run:
+   flutter pub get
+   flutter run
+
+## 📌 Future Improvements
+
+* Real-time carbon API (Climatiq)
+* AI-powered recommendations
+* Blockchain traceability
+
+---
+
+Made for Hackathon 🚀
